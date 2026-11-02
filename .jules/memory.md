@@ -1,0 +1,13 @@
+## Archived: 2026-11-02
+- Repository: Memvid
+- Description: Efficient AI Memory with SQLite & FAISS
+- Key Features: SQLite Backend, Text Compression, Semantic Search, Built-in Chat, PDF Support
+- Library Structure:
+  - memvid/encoder.py: Handles chunking and database insertion
+  - memvid/retriever.py: Fast semantic search, context assembly
+  - memvid/chat.py: MemvidChat class for conversations
+  - memvid/index.py: Index management, embedding, storage
+  - memvid/utils.py: Shared helper functions
+  - memvid/config.py: Config defaults
+- Examples: build_memory.py, chat_memory.py, book_chat.py, soccer_chat.py
+- Dependencies: sentence-transformers, faiss-cpu, sqlite3, zlib (optional: PyPDF2)
